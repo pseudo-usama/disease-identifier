@@ -1,4 +1,4 @@
-# Potato disease classification
+# Disease identifier
 
 ## File structure
  - Directories: (See README file in these directories for details)

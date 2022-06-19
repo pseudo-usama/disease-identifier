@@ -27,7 +27,7 @@ def predict(request):
     # This is required due to CORS restrictions in browsers
     if request.method == "OPTIONS":
         headers = {
-            "Access-Control-Allow-Origin": "https://potato-disease.netlify.app/",
+            "Access-Control-Allow-Origin": "https://disease-identifier.netlify.app/",
             "Access-Control-Allow-Methods": "POST, OPTIONS",
             "Access-Control-Allow-Headers": "Content-Type",
             "Access-Control-Max-Age": "3600",

@@ -10,4 +10,4 @@ Just run [main.py](main.py) as normal python file. It will host an server on por
 
 
 
-docker run -t --rm -p 8501:8501 -v "D:\Project\potato-disease\models:/models" tensorflow/serving --rest_api_port=8501 --model_config_file="/models/models.config"
+docker run -t --rm -p 8501:8501 -v "D:\Project\disease-identifier\models:/models" tensorflow/serving --rest_api_port=8501 --model_config_file="/models/models.config"
